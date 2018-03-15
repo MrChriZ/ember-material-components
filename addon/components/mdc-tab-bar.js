@@ -1,5 +1,7 @@
 import MDCBase from './-mdc-base';
 import { get } from '@ember/object';
+import { set } from '@ember/object';
+
 import { MDCTabBar } from '@material/tabs';
 import layout from '../templates/components/mdc-tab-bar';
 
@@ -34,6 +36,11 @@ export default MDCBase.extend({
     }
     mdcComponent.activeTabIndex = get(this, 'activeTabIndex');
   },
+  setTab(index)
+  {       
+    set(this,'activeTabIndex', index);
+  }
+  ,
 
   change() {}
 });
