@@ -2,8 +2,8 @@ import MDCBase from './-mdc-base';
 import { get } from '@ember/object';
 import { MDCTab } from '@material/tabs';
 import layout from '../templates/components/mdc-tab';
-import ActiveLinkMixin from 'ember-cli-active-link-wrapper/mixins/active-link';
-export default MDCBase.extend(ActiveLinkMixin,{
+
+export default MDCBase.extend({
   layout,
   mdcClass: MDCTab,
   tagName: 'a',
