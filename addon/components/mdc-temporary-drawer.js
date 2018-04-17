@@ -9,7 +9,7 @@ export default MDCBase.extend({
   isOpened: true,
   hasSpacer: false,
   tagName: 'aside',
-  classNames: ['mdc-temporary-drawer', 'mdc-typography'],
+  classNames: ['mdc-drawer', 'mdc-drawer--temporary', 'mdc-typography'],
 
   bindListeners(mdcComponent) {
     mdcComponent.listen('MDCTemporaryDrawer:open', get(this, 'open'));

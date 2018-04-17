@@ -2,6 +2,7 @@ import MDCBase from './-mdc-base';
 import { get } from '@ember/object';
 import { MDCTab } from '@material/tabs';
 import layout from '../templates/components/mdc-tab';
+import Ember from 'ember';
 
 export default MDCBase.extend({
   layout,
