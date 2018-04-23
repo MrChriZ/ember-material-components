@@ -8,6 +8,7 @@ export default MDCBase.extend({
   mdcClass: MDCTemporaryDrawer,
   isOpened: true,
   hasSpacer: false,
+  rtl: false,
   tagName: 'aside',
   classNames: ['mdc-drawer', 'mdc-drawer--temporary', 'mdc-typography'],
 
