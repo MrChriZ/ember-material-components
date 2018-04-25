@@ -1,6 +1,6 @@
 {
   "name": "ember-material-components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Google's Material Design Components for Ember JS apps",
   "keywords": [
     "ember-addon",
@@ -21,36 +21,11 @@
     "deploy": "ember build --environment=production && ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\" && git push origin gh-pages:gh-pages"
   },
   "dependencies": {
-    "@material/animation": "^0.34.0",
-    "@material/base": "^0.34.0",
-    "@material/button": "^0.34.0",
-    "@material/card": "^0.34.0",
-    "@material/checkbox": "^0.34.0",
-    "@material/dialog": "^0.34.0",
-    "@material/drawer": "^0.34.0",
-    "@material/elevation": "^0.34.0",
-    "@material/fab": "^0.34.0",
-    "@material/form-field": "^0.34.0",
-    "@material/grid-list": "^0.34.0",
-    "@material/icon-toggle": "^0.34.0",
-    "@material/layout-grid": "0.34.0",
-    "@material/linear-progress": "^0.34.0",
-    "@material/list": "^0.34.0",
-    "@material/menu": "^0.34.0",
-    "@material/radio": "^0.34.0",
-    "@material/ripple": "^0.34.0",
-    "@material/select": "^0.34.0",
-    "@material/slider": "^0.34.0",
-    "@material/snackbar": "^0.34.0",
-    "@material/switch": "^0.34.0",
-    "@material/tabs": "^0.34.0",
-    "@material/textfield": "^0.34.0",
-    "@material/theme": "^0.34.0",
-    "@material/toolbar": "^0.34.0",
-    "@material/typography": "0.34.0",
+    
     "ember-cli-babel": "^6.6.0",
-    "ember-cli-htmlbars": "^2.0.3"
-  },
+    "ember-cli-htmlbars": "^2.0.3",
+    "material-components-web": "^0.35.0"
+    },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
