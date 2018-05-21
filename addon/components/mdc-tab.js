@@ -29,7 +29,7 @@ export default MDCBase.extend({
     this._super(...arguments);
     const route = Ember.get(this,'route');
     const index = Ember.get(this,'index');
-    if (index && route && route==Ember.getOwner(this).lookup('router:main').get('currentRouteName'))
+    if (index && route && route.includes(Ember.getOwner(this).lookup('router:main').get('currentRouteName')))
     {
       this.set('isActive', true);
       this.parentView.setTab(index,this);
